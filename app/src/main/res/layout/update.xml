@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <ImageView
+        android:id="@+id/imageView22"
+        android:layout_width="61dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginEnd="349dp"
+        android:layout_marginBottom="683dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_baseline_arrow_back_24" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="357dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="62dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginBottom="676dp"
+        android:text="@string/profileupdate"
+        android:textSize="@dimen/select"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="96dp"
+        android:layout_height="86dp"
+        android:layout_marginStart="213dp"
+        android:layout_marginTop="378dp"
+        android:layout_marginEnd="102dp"
+        android:layout_marginBottom="267dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/cvv" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName6"
+        android:layout_width="177dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="302dp"
+        android:layout_marginEnd="204dp"
+        android:layout_marginBottom="379dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="xx/xx"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName7"
+        android:layout_width="320dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="196dp"
+        android:layout_marginEnd="58dp"
+        android:layout_marginBottom="472dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="xxxx xxxxx x"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName8"
+        android:layout_width="183dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="393dp"
+        android:layout_marginEnd="198dp"
+        android:layout_marginBottom="296dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="xxx"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName5"
+        android:layout_width="323dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="106dp"
+        android:layout_marginBottom="564dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/updateddetails"
+        android:textSize="@dimen/xxxx"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="213dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="147dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="51dp"
+        android:layout_marginBottom="612dp"
+        android:text="@string/Yourdeatils"
+        android:textColor="@color/codtext"
+        android:textSize="@dimen/yourdetails"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="113dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="562dp"
+        android:layout_marginEnd="264dp"
+        android:layout_marginBottom="104dp"
+        android:backgroundTint="@color/button1"
+        android:text="Update"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="116dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="248dp"
+        android:layout_marginTop="563dp"
+        android:layout_marginEnd="47dp"
+        android:layout_marginBottom="104dp"
+        android:text="Delete"
+        android:textColor="@color/deletetext"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="131dp"
+        android:layout_height="131dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="438dp"
+        android:layout_marginEnd="140dp"
+        android:layout_marginBottom="162dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="82dp"
+        android:layout_height="69dp"
+        android:layout_marginEnd="264dp"
+        android:layout_marginBottom="623dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/ic_baseline_groups_24" />
+</androidx.constraintlayout.widget.ConstraintLayout>

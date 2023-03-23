@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="select">24dp</dimen>
+    <dimen name="cardno">4dp</dimen>
+    <dimen name="nameoncard">18dp</dimen>
+    <dimen name="mmyy">18dp</dimen>
+    <dimen name="cvv">18dp</dimen>
+    <dimen name="secmsg">14dp</dimen>
+    <dimen name="total">24dp</dimen>
+    <dimen name="deletemsg">48dp</dimen>
+    <dimen name="selectp">24dp</dimen>
+    <dimen name="creditdebit">24dp</dimen>
+    <dimen name="cod">24dp</dimen>
+    <dimen name="seee">20dp</dimen>
+    <dimen name="cong">24dp</dimen>
+    <dimen name="thankyou">48dp</dimen>
+    <dimen name="succ">48dp</dimen>
+    <dimen name="yourdeatils" />
+    <dimen name="yourdetails">24dp</dimen>
+    <dimen name="xxxx">18dp</dimen>
+    <dimen name="succfullyupdated">48dp</dimen>
+</resources>
