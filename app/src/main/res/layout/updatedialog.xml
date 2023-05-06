@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <EditText
+        android:id="@+id/edit_ItemName"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+    android:layout_marginTop="20dp"
+    android:hint="Cart Item Name"
+    android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edit_ItemPrice"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Cart Item Price" />
+
+    <EditText
+        android:id="@+id/edit_ItemQty"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Cart Item Quantity" />
+
+    <EditText
+        android:id="@+id/edit_ItemDes"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Cart Item Description"
+        android:inputType="textPersonName" />
+
+
+    <Button
+        android:id="@+id/btnUpdateData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="Update Data" />
+
+
+</LinearLayout>
