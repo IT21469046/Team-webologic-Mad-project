@@ -234,7 +234,7 @@
         android:layout_marginStart="43dp"
         android:layout_marginTop="264dp"
         android:layout_marginEnd="274dp"
-        android:text="Button"
+        android:text="Add your card"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -247,7 +247,7 @@
         android:layout_marginTop="504dp"
         android:layout_marginEnd="180dp"
         android:layout_marginBottom="179dp"
-        android:text="Button"
+        android:text="COD"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -261,10 +261,12 @@
         android:layout_marginTop="264dp"
         android:layout_marginEnd="17dp"
         android:layout_marginBottom="419dp"
-        android:text="card details"
+        android:text="Added card details"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
