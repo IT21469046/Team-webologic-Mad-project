@@ -6,6 +6,60 @@
     android:layout_height="match_parent"
     android:background="@drawable/background">
 
+    <TextView
+        android:id="@+id/tvcvv"
+        android:layout_width="157dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="378dp"
+        android:layout_marginBottom="304dp"
+        android:text=""
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvmonth"
+        android:layout_width="316dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="305dp"
+        android:layout_marginEnd="51dp"
+        android:layout_marginBottom="382dp"
+        android:text=""
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvname"
+        android:layout_width="316dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="252dp"
+        android:layout_marginEnd="51dp"
+        android:layout_marginBottom="435dp"
+        android:text=""
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvnumber"
+        android:layout_width="316dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="198dp"
+        android:layout_marginEnd="54dp"
+        android:layout_marginBottom="489dp"
+        android:text=""
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <ImageView
         android:id="@+id/imageView22"
         android:layout_width="61dp"
@@ -48,71 +102,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/cvv" />
 
-    <EditText
-        android:id="@+id/editTextTextPersonName6"
-        android:layout_width="177dp"
-        android:layout_height="50dp"
-        android:layout_marginStart="30dp"
-        android:layout_marginTop="302dp"
-        android:layout_marginEnd="204dp"
-        android:layout_marginBottom="379dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="xx/xx"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
-
-    <EditText
-        android:id="@+id/editTextTextPersonName7"
-        android:layout_width="320dp"
-        android:layout_height="63dp"
-        android:layout_marginStart="33dp"
-        android:layout_marginTop="196dp"
-        android:layout_marginEnd="58dp"
-        android:layout_marginBottom="472dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="xxxx xxxxx x"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <EditText
-        android:id="@+id/editTextTextPersonName8"
-        android:layout_width="183dp"
-        android:layout_height="48dp"
-        android:layout_marginStart="30dp"
-        android:layout_marginTop="393dp"
-        android:layout_marginEnd="198dp"
-        android:layout_marginBottom="296dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="xxx"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <EditText
-        android:id="@+id/editTextTextPersonName5"
-        android:layout_width="323dp"
-        android:layout_height="61dp"
-        android:layout_marginStart="30dp"
-        android:layout_marginTop="106dp"
-        android:layout_marginBottom="564dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="@string/updateddetails"
-        android:textSize="@dimen/xxxx"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
     <TextView
         android:id="@+id/textView10"
         android:layout_width="213dp"
@@ -131,7 +120,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/update"
         android:layout_width="113dp"
         android:layout_height="66dp"
         android:layout_marginStart="34dp"
@@ -146,7 +135,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/delete"
         android:layout_width="116dp"
         android:layout_height="64dp"
         android:layout_marginStart="248dp"
@@ -183,4 +172,19 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:srcCompat="@drawable/ic_baseline_groups_24" />
+
+    <TextView
+        android:id="@+id/tvid"
+        android:layout_width="313dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="144dp"
+        android:layout_marginEnd="54dp"
+        android:layout_marginBottom="544dp"
+        android:text=""
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

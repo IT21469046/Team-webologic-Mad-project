@@ -14,11 +14,12 @@
     <color name="red3">#BA1818</color>
     <color name="red4">#FD1C03</color>
     <color name="black3">#FF000000</color>
-    <color name="button">FF40A1CA</color>
+    <color name="button">#FF40A1CA</color>
     <color name="button1">#3CD3B2</color>
     <color name="delete">#DA5147</color>
     <color name="delete1btn">#CE837E</color>
     <color name="deletetext">#CE1002</color>
     <color name="deletebtn">#9E1E14</color>
     <color name="codtext">#F8EFEE</color>
+
 </resources>
