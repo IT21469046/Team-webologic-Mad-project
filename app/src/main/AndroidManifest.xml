@@ -8,21 +8,29 @@
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Shoppingcart_FirebaseNew"
+        android:theme="@style/Theme.MyApplication"
         tools:targetApi="31">
         <activity
             android:name=".activities.MainActivity"
-            android:exported="true">
+
+
+        android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
         </activity>
-        <activity android:name=".activities.InsertionActivity" />
-        <activity android:name=".activities.FetchingActivity" />
-        <activity android:name=".activities.Shopping_CartDetailsActivity"/>
+        <activity android:name=".activities.Insertactivity"/>
+        <activity android:name=".activities.Viewdata" />
+        <activity android:name=".activities.Details" />
+
 
     </application>
 

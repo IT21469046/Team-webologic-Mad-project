@@ -1,3 +1,30 @@
 <resources>
-    <string name="app_name">Shoppingcart_FirebaseNew</string>
+    <string name="app_name">My Application</string>
+    <string name="SelectPaymentMethod">Select Payment Method</string>
+    <string name="Cardnumber">Card number</string>
+    <string name="Nameoncard">Name on card</string>
+    <string name="MMYY">(MM/YY)</string>
+    <string name="Cvv">CVV</string>
+    <string name="dis">security policy</string>
+    <string name="TotalAmount">Total Amount-</string>
+    <string name="deleteacc">Are you sure you want to delete Your Account</string>
+    <string name="method">Select Payment Method</string>
+    <string name="card"><u>Credit/Debit Card</u></string>
+    <string name="CashonDelivery"><u>Cash on Delivery</u></string>
+    <string name="free">Shop without Borders, Free Shipping on Us!</string>
+    <string name="congr">congratulations!</string>
+    <string name="thanks">Thank you for your order!</string>
+    <string name="succadd">You successfully added details</string>
+    <string name="Yourdeatils">Your deatils</string>
+    <string name="updateddetails">xxxx xxxx xxxx xxxx</string>
+    <string name="succupdate">You successfully update details</string>
+    <string name="savecard">Save Card</string>
+    <string name="Paynow">Pay Now</string>
+    <string name="delete">Delete</string>
+    <string name="back">Back</string>
+    <string name="view">View</string>
+    <string name="Payhere">Pay Here</string>
+    <string name="fillcarddetails">Add your card details</string>
+    <string name="profileupdate">Your Card details</string>
+    <string name="xxx">xxx</string>
 </resources>
